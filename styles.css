@@ -1,0 +1,50 @@
+#header {
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  color: blue;
+}
+
+#questions {
+  text-align: center;
+  margin: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+  padding-bottom: 30px;
+}
+
+#submitbtn{
+    transition: background-color 0.3s;
+    color: white;
+    background-color: black;
+}
+
+#submitbtn:hover{
+    color: blue;
+    background-color: white;
+}
+
+#submitbtn:active{
+    color: white;
+    background-color: white;
+}
+
+#score{
+    margin-top: -20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: aqua;
+}
+
+#restartbtn{
+    background-color: #28a745;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add a smooth transition effect for the color change */
+    position: absolute;
+    right: 20px; /* Adjust this value to set the right distance from the edge */
+    top: 20px; 
+}

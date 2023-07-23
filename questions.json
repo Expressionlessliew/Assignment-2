@@ -1,46 +1,48 @@
 {
-  "question1": {
-    "name": "How many keys are there in a piano?",
-    "answer": "88"
-  },
-  "question2": {
-    "name": "How many keys does a keyboard have?",
-    "answer": "104"
-  },
-  "question3": {
-    "name": "How many function keys are there in a keyboard",
-    "answer": "12"
-  },
-  "question4": {
-    "name": "How many days are there in a year?",
-    "answer": "365"
-  },
-  "question5": {
-    "name": "How many days are there in a week?",
-    "answer": "7"
-  },
-  "question6": {
-    "name": "How many days are there in a month?",
-    "answer": "30"
-  },
-  "question7": {
-    "name": "How many weeks are there in a month?",
-    "answer": "4"
-  },
-  "question8": {
-    "name": "How many weeks are there in a year?",
-    "answer": "52"
-  },
-  "question9": {
-    "name": "how many alphabets are there?",
-    "answer": "26"
-  },
-  "question10": {
-    "name": "How many vowel are there?",
-    "answer": "5"
-  },
-  "question11": {
-    "name": "how many consonants are there in english alphabet?",
-    "answer": "21"
-  }
+  "questions": [
+    {
+      "name": "How many keys are there in a piano?",
+      "answer": "88"
+    },
+    {
+      "name": "How many keys does a keyboard have?",
+      "answer": "104"
+    },
+    {
+      "name": "How many function keys are there in a keyboard",
+      "answer": "12"
+    },
+    {
+      "name": "How many days are there in a year?",
+      "answer": "365"
+    },
+    {
+      "name": "How many days are there in a week?",
+      "answer": "7"
+    },
+    {
+      "name": "How many days are there in a month?",
+      "answer": "30"
+    },
+    {
+      "name": "How many weeks are there in a month?",
+      "answer": "4"
+    },
+    {
+      "name": "How many weeks are there in a year?",
+      "answer": "52"
+    },
+    {
+      "name": "how many alphabets are there?",
+      "answer": "26"
+    },
+    {
+      "name": "How many vowel are there?",
+      "answer": "5"
+    },
+    {
+      "name": "how many consonants are there in english alphabet?",
+      "answer": "21"
+    }
+  ]
 }

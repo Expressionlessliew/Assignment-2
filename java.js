@@ -7,28 +7,31 @@ const nameInputElement = document.getElementById("name-input");
 let score = 0;
 let isQuizFinished = false;
 
+
+
 // Function to load the questions
 function loadQuestions() {
   const questionRef = firebase.database().ref("questions");
   questionRef.once("value", (snapshot) => {
     const questions = snapshot.val();
+    const orderedList = document.createElement("ol"); // Create <ol> element
+    questionsContainer.appendChild(orderedList); // Append <ol> to questionsContainer
     for (const questionKey in questions) {
       if (questions.hasOwnProperty(questionKey)) {
         const question = questions[questionKey];
-        console.log(question.name)
 
-        const questionElement = document.createElement("div");
-        questionElement.classList.add("question");
-        questionElement.innerHTML = `
+        // Create <li> element for each question
+        const listItem = document.createElement("li");
+        listItem.classList.add("question");
+        listItem.innerHTML = `
           <span class="question-name">${question.name}</span>
           <input type="text" class="answer-input" data-question-key="${questionKey}" />
         `;
-        questionsContainer.appendChild(questionElement);
+        orderedList.appendChild(listItem); // Append <li> to <ol>
       }
     }
   });
 }
-
 // Function to calculate the score
 function calculateScore() {
   const answerInputs = document.querySelectorAll(".answer-input");
