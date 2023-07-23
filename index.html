@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Assignment 2</title>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script src="firebase-config.js"></script>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="Form head">
+        <form id="quiz-form">
+          <h1 id="header">Happy Quiz!</h1>
+          <div class="questions-container"></div>
+          <button class="submit-btn">Submit</button>
+        </form>
+        <div class="scoreboard">
+          <h3>Score: <span class="score">0</span></h3>
+        </div>
+        <button class="restart-btn" style="display: none">Restart Quiz</button>
+      </section>
+    </main>    
+    <script src="java.js"></script>
+  </body>
+</html>
